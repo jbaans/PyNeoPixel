@@ -1,7 +1,8 @@
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 8
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(3, PIN, NEO_GRB + NEO_KHZ800);
+#define NUMPIXELS 64
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 /*
 \r  Start of command
